@@ -8,21 +8,24 @@ export default {
     extend: {
       colors: {
         'brand-brown': {
-          light: '#A0522D', // siena
-          DEFAULT: '#8B4513', // saddlebrown
+          light: '#A0522D',
+          DEFAULT: '#8B4513',
           dark: '#5C2C06',
         },
         'brand-cream': {
           light: '#FFF8F0',
           DEFAULT: '#F5EEDC',
+          dark: '#EFE6D5'
         },
       },
       fontFamily: {
         'display': ['Playfair Display', 'serif'],
         'body': ['Poppins', 'sans-serif'],
       },
+      // NUEVAS ANIMACIONES
       animation: {
         'float': 'float 6s ease-in-out infinite',
+        'bounce-slow': 'bounce 2s ease-in-out infinite'
       },
       keyframes: {
         float: {
