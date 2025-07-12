@@ -6,17 +6,20 @@ import { GiChocolateBar, GiStrawberry } from 'react-icons/gi';
 // --- CORRECCIÓN FINAL ---
 // Importamos un ícono de nuez diferente desde otra colección (Bootstrap Icons)
 import { BsNutFill } from 'react-icons/bs';
-
+import Rol1 from './assets/rol_1.jpg';
+import Rol2 from './assets/rol_2.jpg';
+import Rol3 from './assets/rol_3.jpg';
+import FondoRol from './assets/rol_canela_animado.jpg';
 
 // --- IMÁGENES DE EJEMPLO (Reemplázalas con tus propias fotos) ---
-const heroImage = "https://images.unsplash.com/photo-1599785209707-a456fc1337ce?q=80&w=1887&auto=format&fit=crop";
-const gallery1 = "https://images.unsplash.com/photo-1605384145249-598913501b1b?q=80&w=1887&auto=format&fit=crop";
-const gallery2 = "https://images.unsplash.com/photo-1608314614697-a4a8f9460d36?q=80&w=1887&auto=format&fit=crop";
-const gallery3 = "https://images.unsplash.com/photo-1628182662035-5bab222d4493?q=80&w=1887&auto=format&fit=crop";
+const heroImage = FondoRol;
+const gallery1 = Rol1; // Asegúrate de que esta ruta sea correcta
+const gallery2 = Rol2;
+const gallery3 = Rol3;
 
 // --- DATOS DE TU NEGOCIO (Modifica esto) ---
 const businessData = {
-  name: "Canela Celestial",
+  name: "Anea Bakery",
   tagline: "El sabor que te lleva al cielo.",
   phone: "521234567890", // Tu número de WhatsApp con código de país (52 para México)
   instagram: "https://instagram.com/tu_usuario",
